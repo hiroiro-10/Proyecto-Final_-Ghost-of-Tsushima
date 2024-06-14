@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 150;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Inter',sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+}
+
+/* Seccion de Nav bar */
+header {
+    background-color: #F3F3F3; 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu li a {
+    color: black;
+    font-weight: lighter;
+    transition: color 0.3s;
+    font-size: 24px;
+}
+
+.menu li a:hover {
+    color: #E7541E;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: black; 
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+.links li:last-child {
+    background: #E7541E;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+
+/* Seccion de Lecciones */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+section {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 20px;
+    margin-top: 0; 
+}
+
+.titulo-seccion {
+    color: #3A3A3A; 
+    font-weight: bold;
+}
+
+#Main {
+        background-image: url('https://github.com/hiroiro-10/Proyecto-Final_-Ghost-of-Tsushima/blob/main/Fondo-%20Secciones.png?raw=true');
+        height: 3948px;
+        background-repeat: no-repeat;
+}
+
+#header-got{
+    background-image: url('https://github.com/hiroiro-10/Proyecto-Final_-Ghost-of-Tsushima/blob/main/Header%20desktop%20pg3.png?raw=true');
+    height: 731px;
+    background-repeat: no-repeat;
+}
+
+#Guía .titulo-seccion{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 29px;
+    font-style: bold; 
+    margin: 40px;
+    color: #FFFFFF;
+}
